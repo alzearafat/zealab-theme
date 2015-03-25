@@ -200,7 +200,11 @@ h1.entry-title {
 }
 
 h1.entry-title a {
-	color: #454545 !important;
+	color: #454545;
+}
+
+h1.entry-title a:hover {
+	color: #e74c3c;
 }
 
 h1.entry-title-single {
