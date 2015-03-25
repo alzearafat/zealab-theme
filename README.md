@@ -30,7 +30,13 @@ TO-DO
 
 1. Add portfolio page
 2. Add admin options framework
-3. ...?
+3. Make small wiki
+4. ...?
+
+
+*NOTE
+---------------
+I know this theme is far from perfect, it doesn't intended to. Some parts of this theme is still hard-coded (services & about me). Yes, I'm planning to create native admin options, but I can't promises soon... Due to my busy schedule at office. But if you are impatient, you can use this awesome plugin : [Tonjoo Theme Option Maker (TTOM)](https://wordpress.org/plugins/tonjoo-theme-option-maker/)
 
 
 LICENSE
