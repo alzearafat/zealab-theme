@@ -21,7 +21,7 @@ HOW TO INSTALL
 1. Download theme : https://github.com/alzearafat/zealab-theme/archive/master.zip
 2. Upload to your /wordpress-installation-folder/wp-content/themes
 3. Activate from admin's dashboard >> Apreance >> Themes
-4. Install required plugins (Check our dashboard after activation)
+4. Install required plugins (Check your dashboard after activation)
 5. Done!
 
 
