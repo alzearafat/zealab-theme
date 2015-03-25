@@ -25,7 +25,7 @@
 					<div class="twelve columns">
 					<header id="masthead" class="site-header" role="banner">
 						<div class="site-branding">
-							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo get_avatar( 'alzea.arafat@gmail.com', 128 ); ?></a></h1>
+							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php zealab_display_gravatar(); ?></a></h1>
 							<h2 class="site-description"><?php // bloginfo( 'description' ); ?></h2>
 						</div><!-- .site-branding -->
 

@@ -99,6 +99,20 @@ function zealab_widgets_init() {
 }
 add_action( 'widgets_init', 'zealab_widgets_init' );
 
+
+// GET USER AVATAR BY EMAIL
+function zealab_display_gravatar() { 
+	global $current_user;
+	get_currentuserinfo();
+	// Get User Email Address
+	$getuseremail = $current_user->user_email;
+	// Convert email into md5 hash and set image size to 128 px
+	$usergravatar = 'http://www.gravatar.com/avatar/' . md5($getuseremail) . '?s=128';
+	echo '<img src="' . $usergravatar . '" class="wpb_gravatar" />';
+} 
+
+
+/** Required Plugins
 /**
  * This file represents an example of the code that themes would use to register
  * the required plugins.
@@ -120,9 +134,6 @@ add_action( 'widgets_init', 'zealab_widgets_init' );
  * Include the TGM_Plugin_Activation class.
  */
 require_once dirname( __FILE__ ) . '/class-tgm-plugin-activation.php';
-
-
-// Required Plugins
 
 add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
 /**
