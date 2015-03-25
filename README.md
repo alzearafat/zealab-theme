@@ -11,7 +11,7 @@ ABOUT
 
 **Zealab Theme - Clean, Minimalist, Responsive WordPress Theme**
 
-I made this WordPress theme for my own personal blog (http://zealab.com), with clean, simplicity and readability in mind. Because I want to focus on content rather than design, So don't expect too much...  ;-)
+I made this WordPress theme for my own personal blog (http://zealab.com), with clean, simplicity and readability in mind. Because I want to focus on content rather than design, So don't expect too much... But it gets the job done ;-)
 
 
 HOW TO INSTALL
@@ -27,7 +27,7 @@ TO-DO
 ---------------
 
 1. Add portfolio page
-2. Add admin options framework
+2. Add admin options
 3. Make small wiki
 4. ...?
 
