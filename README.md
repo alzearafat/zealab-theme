@@ -11,9 +11,7 @@ ABOUT
 
 **Zealab Theme - Clean, Minimalist, Responsive WordPress Theme**
 
-I made this WordPress theme for my own personal blog (http://zealab.com), with clean, simplicity and readability in mind. Because I want to focus on content rather than design, So don't expect too much...  ;-)
-
-This theme is made from Skeleton Framework (http://getskeleton.com/).
+I made this WordPress theme for my own personal blog (http://zealab.com), with clean, simplicity and readability in mind. Because I want to focus on content rather than design, So don't expect too much... But it gets the job done ;-)
 
 
 HOW TO INSTALL
@@ -29,8 +27,14 @@ TO-DO
 ---------------
 
 1. Add portfolio page
-2. Add admin options framework
-3. ...?
+2. Add admin options
+3. Make small wiki
+4. ...?
+
+
+*NOTE
+---------------
+I know this theme is far from perfect, it doesn't intended to. Some parts of this theme is still hard-coded (services & about me). Yes, I'm planning to create native admin options, but I can't promises soon... Due to my busy schedule at office. But if you are impatient, you can use this awesome plugin : [Tonjoo Theme Option Maker (TTOM)](https://wordpress.org/plugins/tonjoo-theme-option-maker/)
 
 
 LICENSE
@@ -40,5 +44,5 @@ LICENSE
 
 SPECIAL THANKS
 ---------------
-Puti Syakirah Taher
+الله سُبْحَانَهُ وتَعَالَى
 
