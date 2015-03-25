@@ -9,6 +9,8 @@ SCREENSHOT
 ABOUT
 ---------------
 
+**Zealab Theme - Clean, Minimalist, Responsive WordPress Theme**
+
 I made this WordPress theme for my own personal blog (http://zealab.com), with clean, simplicity and readability in mind. Because I want to focus on content rather than design, So don't expect too much...  ;)
 
 This theme is made from Skeleton Framework (http://getskeleton.com/).
