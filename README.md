@@ -40,5 +40,5 @@ LICENSE
 
 SPECIAL THANKS
 ---------------
-Puti Syakirah Taher
+الله سُبْحَانَهُ وتَعَالَى
 
