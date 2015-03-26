@@ -79,6 +79,7 @@ function zealab_setup() {
 }
 
 endif; // zealab_setup
+
 add_action( 'after_setup_theme', 'zealab_setup' );
 
 /**
@@ -239,6 +240,261 @@ function my_theme_register_required_plugins() {
     tgmpa( $plugins, $config );
 
 }
+
+
+// TITAN FRAMEWORK CODE
+// EMBED FIRST
+
+require_once( 'titan-framework/titan-framework-embedder.php' );
+
+// TITAN FRAMEWORK OPTIONS
+
+add_action( 'tf_create_options', 'zealab_options' );
+function zealab_options() {
+
+    $titan = TitanFramework::getInstance( 'zealab-theme' );
+
+    $panel = $titan->createAdminPanel( array(
+        'name' => 'Zealab Options',
+        'icon' => 'dashicons-carrot',
+    ) );
+
+
+    //TAB GENERAL
+    $tab_general = $panel->createTab( array(
+        'name' => 'GENERAL',
+        'title' => 'General',
+        'desc' => 'This is General section',
+    ) );
+
+    $tab_general->createOption( array(
+        'name' => 'Upload Avatar',
+        'id' => 'upload_avatar',
+        'type' => 'upload',
+        'size' => '128',
+        'desc' => 'Upload your avatar here'
+    ) );
+
+    $tab_general->createOption( array(
+        'name' => 'Your Name',
+        'id' => 'your_name',
+        'type' => 'text',
+        'desc' => 'Who are you?'
+    ) ); 
+
+    $tab_general->createOption( array(
+        'name' => 'Rotating Word 1',
+        'id' => 'rotating_word_1',
+        'type' => 'text',
+        'desc' => 'Text for rotating word 1 here'
+    ) ); 
+
+    $tab_general->createOption( array(
+        'name' => 'Rotating Word 2',
+        'id' => 'rotating_word_2',
+        'type' => 'text',
+        'desc' => 'Text for rotating word 2 here'
+    ) ); 
+
+    $tab_general->createOption( array(
+        'name' => 'Rotating Word 3',
+        'id' => 'rotating_word_3',
+        'type' => 'text',
+        'desc' => 'Text for rotating word 3 here'
+    ) ); 
+
+    $tab_general->createOption( array(
+        'name' => 'Rotating Word 4',
+        'id' => 'rotating_word_4',
+        'type' => 'text',
+        'desc' => 'Text for rotating word 4 here'
+    ) ); 
+
+    $tab_general->createOption( array(
+        'name' => 'Rotating Word 5',
+        'id' => 'rotating_word_5',
+        'type' => 'text',
+        'desc' => 'Text for rotating word 5 here'
+    ) ); 
+
+    $tab_general->createOption( array(
+        'name' => 'Rotating Word 6',
+        'id' => 'rotating_word_6',
+        'type' => 'text',
+        'desc' => 'Text for rotating word 6 here'
+    ) ); 
+
+    $tab_general->createOption( array(
+        'type' => 'save'
+    ) );
+
+
+
+    // TAB SERVICES GRID
+    $tab_services = $panel->createTab( array(
+        'name' => 'SERVICES',
+        'title' => 'Services',
+        'desc' => 'This is tab for "Services" Section',
+
+    ) );
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 1 Title',
+        'id' => 'service_icon_1_title',
+        'type' => 'text',
+        'desc' => 'Title for Icon 1 here'
+    ) ); 
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 1 Image',
+        'id' => 'service_icon_1_image',
+        'type' => 'text',
+        'desc' => 'Use Font Awesome class for Icon 1 here (JUST CLASS! DO NOT COPY ENTIRE "i" TAG HERE!)'
+    ) ); 
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 1 Desc',
+        'id' => 'service_icon_1_desc',
+        'type' => 'textarea',
+        'desc' => 'This is text/desc for icon 1'
+    ) );
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 2 Title',
+        'id' => 'service_icon_2_title',
+        'type' => 'text',
+        'desc' => 'Title for Icon 2 here'
+    ) ); 
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 2 Image',
+        'id' => 'service_icon_2_image',
+        'type' => 'text',
+        'desc' => 'Use Font Awesome class for Icon 2 here (JUST CLASS! DO NOT COPY ENTIRE "i" TAG HERE!)'
+    ) ); 
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 2 Desc',
+        'id' => 'service_icon_2_desc',
+        'type' => 'textarea',
+        'desc' => 'This is text/desc for icon 2'
+    ) );
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 3 Title',
+        'id' => 'service_icon_3_title',
+        'type' => 'text',
+        'desc' => 'Title for Icon 3 here'
+    ) ); 
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 3 Image',
+        'id' => 'service_icon_3_image',
+        'type' => 'text',
+        'desc' => 'Use Font Awesome class for Icon 3 here (JUST CLASS! DO NOT COPY ENTIRE "i" TAG HERE!)'
+    ) ); 
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 3 Desc',
+        'id' => 'service_icon_3_desc',
+        'type' => 'textarea',
+        'desc' => 'This is text/desc for icon 3'
+    ) );
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 4 Title',
+        'id' => 'service_icon_4_title',
+        'type' => 'text',
+        'desc' => 'Title for Icon 4 here'
+    ) ); 
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 4 Image',
+        'id' => 'service_icon_4_image',
+        'type' => 'text',
+        'desc' => 'Use Font Awesome class for Icon 4 here (JUST CLASS! DO NOT COPY ENTIRE "i" TAG HERE!)'
+    ) ); 
+
+    $tab_services->createOption( array(
+        'name' => 'Icon 4 Desc',
+        'id' => 'service_icon_4_desc',
+        'type' => 'textarea',
+        'desc' => 'This is text/desc for icon 4'
+    ) );
+
+     $tab_services->createOption( array(
+        'type' => 'save'
+    ) );
+
+
+    //TAB ABOUT ME GRID
+    $tab_about = $panel->createTab( array(
+        'name' => 'ABOUT',
+        'title' => 'About',
+        'desc' => 'This is tab for "About Me" Section',
+    ) );
+
+    $tab_about->createOption( array(
+        'name' => 'Icon 1 Image',
+        'id' => 'about_icon_1_image',
+        'type' => 'text',
+        'desc' => 'Use Font Awesome class for Icon 1 here'
+    ) ); 
+
+    $tab_about->createOption( array(
+        'name' => 'Icon 1 Text',
+        'id' => 'about_icon_1_text',
+        'type' => 'text',
+        'desc' => 'This is text/desc for icon 1'
+    ) );
+
+    $tab_about->createOption( array(
+        'name' => 'Icon 2 Image',
+        'id' => 'about_icon_2_image',
+        'type' => 'text',
+        'desc' => 'Use Font Awesome class for Icon 2 here'
+    ) ); 
+
+    $tab_about->createOption( array(
+        'name' => 'Icon 2 Text',
+        'id' => 'about_icon_2_text',
+        'type' => 'text',
+        'desc' => 'This is text/desc for icon 2'
+    ) );
+
+    $tab_about->createOption( array(
+        'name' => 'Icon 3 Image',
+        'id' => 'about_icon_3_image',
+        'type' => 'text',
+        'desc' => 'Use Font Awesome class for Icon 3 here'
+    ) ); 
+
+    $tab_about->createOption( array(
+        'name' => 'Icon 3 Text',
+        'id' => 'about_icon_3_text',
+        'type' => 'text',
+        'desc' => 'This is text/desc for icon 3'
+    ) );
+
+    $tab_about->createOption( array(
+        'name' => 'Icon 4 Image',
+        'id' => 'about_icon_4_image',
+        'type' => 'text',
+        'desc' => 'Use Font Awesome class for Icon 4 here'
+    ) ); 
+
+    $tab_about->createOption( array(
+        'name' => 'Icon 4 Text',
+        'id' => 'about_icon_4_text',
+        'type' => 'text',
+        'desc' => 'This is text/desc for icon 4'
+    ) );
+
+     $tab_about->createOption( array(
+        'type' => 'save'
+    ) );
+}
+
 
 /**
  * Enqueue scripts and styles.

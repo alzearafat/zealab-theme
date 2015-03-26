@@ -23,6 +23,28 @@ HOW TO INSTALL
 5. Done!
 
 
+
+HOW TO USE ADMIN PANEL
+---------------
+In this Example, I'll show you how to change Font-Awesome's Icons in the homepage using Admin Panel :
+
+1. Go to [font-awesome's official website](http://fortawesome.github.io/Font-Awesome/icons/)
+
+2. Pick your icon, and copy its <i> class (JUST ITS CLASS!). See screenshot below :
+
+![alt text](http://i61.tinypic.com/2yn3shu.png "Just font-awesome <i> class")
+
+3. Go to wp-admin's dashboard >> Zealab Options :
+
+![alt text](http://i62.tinypic.com/2n0lmqe.png "Zealab options on wp-admin dashboard")
+
+4. Click "Services" tab, and paste font-awesome's <i> class that you copied earlier to the "Icon * Image" form :
+
+![alt text](http://i61.tinypic.com/20s63oj.png "Paster font-awesome <i> class here")
+
+5. Reload your browser, and done!
+
+
 TO-DO
 ---------------
 

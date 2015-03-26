@@ -260,6 +260,7 @@ h1.entry-title-single {
 
 .featured-image-wrapper img {
 	border-radius: 5px;
+	-moz-box-shadow: 5px 5px 5px #888888;
 	-webkit-box-shadow: 5px 5px 5px #888888;
 	box-shadow: 5px 5px 5px #888888;
 }
@@ -292,6 +293,19 @@ h1.entry-title-single {
 	text-align: center;
 	height: 30px;
 	border-radius: 5px;
+}
+
+p#form-allowed-tags {
+	display: none;
+}
+
+article.comment-body {
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888;
 }
 
 

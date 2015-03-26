@@ -18,6 +18,21 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+	<!-- AVATAR GETTER VALUE -->
+    <?php
+        $titan = TitanFramework::getInstance( 'zealab-theme' );
+        
+        $imageID = $titan->getOption( 'upload_avatar' );
+
+        $imageSrc = $imageID; // For the default value
+        if ( is_numeric( $imageID ) ) {
+            $imageAttachment = wp_get_attachment_image_src( $imageID );
+            $imageSrc = $imageAttachment[0];
+        }
+    ?>
+    <!-- END OF CODE -->
+
 	<div id="page" class="hfeed site">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'zealab' ); ?></a>
 			<div class="container">
@@ -25,7 +40,7 @@
 					<div class="twelve columns">
 					<header id="masthead" class="site-header" role="banner">
 						<div class="site-branding">
-							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php zealab_display_gravatar(); ?></a></h1>
+							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src='<?php echo esc_url( $imageSrc ); ?>' /></a></h1>
 							<h2 class="site-description"><?php // bloginfo( 'description' ); ?></h2>
 						</div><!-- .site-branding -->
 

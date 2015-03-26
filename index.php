@@ -21,20 +21,75 @@ get_header(); ?>
 	});
 </script>
 
+<!-- GETTING ADMIN OPTION VALUE -->
+
+<?php
+    $titan = TitanFramework::getInstance( 'zealab-theme' );
+
+    // ROTATING WORDS SECTION
+
+    $my_name = $titan->getOption('your_name');
+
+    $rotating_text_1 = $titan->getOption('rotating_word_1');
+	$rotating_text_2 = $titan->getOption('rotating_word_2');
+	$rotating_text_3 = $titan->getOption('rotating_word_3');
+	$rotating_text_4 = $titan->getOption('rotating_word_4');
+	$rotating_text_5 = $titan->getOption('rotating_word_5');
+	$rotating_text_6 = $titan->getOption('rotating_word_6');
+
+
+    // SERVICES SECTION
+
+    $service_icon_1 = $titan->getOption('service_icon_1_image');
+	$service_title_1 = $titan->getOption('service_icon_1_title');
+    $service_desc_1 = $titan->getOption('service_icon_1_desc');
+
+    $service_icon_2 = $titan->getOption('service_icon_2_image');
+    $service_title_2 = $titan->getOption('service_icon_2_title');
+    $service_desc_2 = $titan->getOption('service_icon_2_desc');
+
+    $service_icon_3 = $titan->getOption('service_icon_3_image');
+    $service_title_3 = $titan->getOption('service_icon_3_title');
+    $service_desc_3 = $titan->getOption('service_icon_3_desc');
+
+    $service_icon_4 = $titan->getOption('service_icon_4_image');
+    $service_title_4 = $titan->getOption('service_icon_4_title');
+    $service_desc_4 = $titan->getOption('service_icon_4_desc');
+
+
+    // ABOUT ME SECTION
+
+    $about_icon_1 = $titan->getOption('about_icon_1_image');
+	$about_text_1 = $titan->getOption('about_icon_1_text');
+
+    $about_icon_2 = $titan->getOption('about_icon_2_image');
+	$about_text_2 = $titan->getOption('about_icon_2_text');
+
+	$about_icon_3 = $titan->getOption('about_icon_3_image');
+	$about_text_3 = $titan->getOption('about_icon_3_text');
+
+    $about_icon_4 = $titan->getOption('about_icon_4_image');
+	$about_text_4 = $titan->getOption('about_icon_4_text');
+
+?>
+
+<!-- END OF CODE -->
+
+
 <!-- I AM -->
 <div class="i-am-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="twelve columns">
 				<div class="i-am-content">
-					<h4 id="i-am-h4">Hello. I am <div id="alzea">ALZEA</div>
+					<h4 id="i-am-h4">Hello. I am <div id="alzea"><?php echo "$my_name"; ?></div>
 						<div class="rw-words rw-words-1">
-							<span>a WordPress Developer</span>
-							<span>a Technical Writer</span>
-							<span>a Cat & Anime Lover</span>
-							<span>a Geek without Glasses</span>
-							<span>a Django Developer</span>
-							<span>an Astronout ;-)</span>
+							<span><?php echo "$rotating_text_1"; ?></span>
+							<span><?php echo "$rotating_text_2"; ?></span>
+							<span><?php echo "$rotating_text_3"; ?></span>
+							<span><?php echo "$rotating_text_4"; ?></span>
+							<span><?php echo "$rotating_text_5"; ?></span>
+							<span><?php echo "$rotating_text_6"; ?></span>
 						</div>
 					</h4>
 					<h4>I Live in Yogyakarta, Indonesia.
@@ -71,12 +126,12 @@ get_header(); ?>
 							<div class="row">
 								<div class="two columns">
 									<div class="service-icon-wrapper">
-										<i class="fa fa-wordpress fa-4x"></i>
+										<i class="<?php echo "$service_icon_1"; ?> fa-4x"></i>	
 									</div>
 								</div>
 								<div class="ten columns">
-									<h5>WordPress Development</h5>
-									<p>I design super cool websites. It is a long established fact that a reader will be distracted by the readable content.</p>
+									<h5><?php echo "$service_title_1"; ?></h5>
+									<p><?php echo "$service_desc_1"; ?></p>
 								</div>
 							</div>
 						</div>
@@ -84,27 +139,27 @@ get_header(); ?>
 							<div class="row">
 								<div class="two columns">
 									<div class="service-icon-wrapper">
-										<i class="fa fa-pencil fa-4x"></i>
+										<i class="<?php echo "$service_icon_2"; ?> fa-4x"></i>
 									</div>
 								</div>
 								<div class="ten columns">
-									<h5>Technical & Content Writing</h5>
-									<p>I design super cool websites. It is a long established fact that a reader will be distracted by the readable content.</p>
+									<h5><?php echo "$service_title_2"; ?></h5>
+									<p><?php echo "$service_desc_2"; ?></p>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="six columns">
-		                    <div class="row">
+							<div class="row">
 								<div class="two columns">
 									<div class="service-icon-wrapper">
-										<i class="fa fa-html5 fa-4x"></i>
+										<i class="<?php echo "$service_icon_3"; ?> fa-4x"></i>
 									</div>
 								</div>
 								<div class="ten columns">
-									<h5>Front-End Development</h5>
-									<p>I design super cool websites. It is a long established fact that a reader will be distracted by the readable content.</p>
+									<h5><?php echo "$service_title_3"; ?></h5>
+									<p><?php echo "$service_desc_3"; ?></p>
 								</div>
 							</div>
 						</div>
@@ -112,12 +167,12 @@ get_header(); ?>
 							<div class="row">
 								<div class="two columns">
 									<div class="service-icon-wrapper">
-										<i class="icon-python" style="font-size: 4em !important;"></i>
+										<i class="<?php echo "$service_icon_4"; ?>" style="font-size: 4em !important;"></i>
 									</div>
 								</div>
 								<div class="ten columns">
-									<h5>Django Development</h5>
-									<p>I design super cool websites. It is a long established fact that a reader will be distracted by the readable content.</p>
+									<h5><?php echo "$service_title_4"; ?></h5>
+									<p><?php echo "$service_desc_4"; ?></p>
 								</div>
 							</div>
 						</div>
@@ -142,20 +197,20 @@ get_header(); ?>
 				<div class="about-me-content">
 					<div class="row">
 						<div class="three columns">
-							<i class="fa fa-thumbs-o-up fa-5x"></i>
-							<p><span class="count">17</span> PROJECTS COMPLETED</p>
+							<i class="<?php echo "$about_icon_1"; ?> fa-5x"></i>
+							<p><?php echo "$about_text_1"; ?></p>
 						</div>
 						<div class="three columns">
-							<i class="fa fa-github fa-5x"></i>
-							<p><span class="count">15</span> FOSS PROJECTS</p>
+							<i class="<?php echo "$about_icon_2"; ?> fa-5x"></i>
+							<p><?php echo "$about_text_2"; ?></p>
 						</div>
 						<div class="three columns">
-							<i class="fa fa-coffee fa-5x"></i>
-							<p><span class="count">207</span> Cups of Coffee</p>
+							<i class="<?php echo "$about_icon_3"; ?> fa-5x"></i>
+							<p><?php echo "$about_text_3"; ?></p>
 						</div>
 						<div class="three columns">
-							<i class="fa fa-code fa-5x"></i>
-							<p><span class="count">23715</span> Lines of Code</p>
+							<i class="<?php echo "$about_icon_4"; ?> fa-5x"></i>
+							<p><?php echo "$about_text_4"; ?></p>
 						</div>
 					</div>
 				</div>
