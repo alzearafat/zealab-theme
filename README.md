@@ -49,7 +49,7 @@ TO-DO
 
 *NOTE
 ---------------
-I know this theme is far from perfect, it doesn't intended to. Some parts of this theme is still hard-coded (services & about me). Yes, I'm planning to create native admin options, but I can't promises soon... Due to my busy schedule at office. But if you are impatient, you can use this awesome plugin : [Tonjoo Theme Option Maker (TTOM)](https://wordpress.org/plugins/tonjoo-theme-option-maker/)
+I know this theme is far from perfect, it doesn't intended to. Besides, I originaly create this theme just for learning purpose and for my own use. But any sugestions and helps are welcome :-)
 
 
 LICENSE
