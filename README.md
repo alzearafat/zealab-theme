@@ -39,7 +39,7 @@ I know this theme is far from perfect, it doesn't intended to. Some parts of thi
 
 LICENSE
 ---------------
-[Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](http://creativecommons.org/licenses/by-nc/4.0/)
+[Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)
 
 
 SPECIAL THANKS

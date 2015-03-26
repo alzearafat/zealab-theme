@@ -252,7 +252,7 @@ function zealab_scripts() {
 	// SKELETON
 	wp_register_style('skeleton', get_template_directory_uri() . '/assets/css/skeleton.css');    
     wp_enqueue_style('skeleton');
-
+    
     // NORMALIZE
 	wp_register_style('normalize', get_template_directory_uri() . '/assets/css/normalize.css');    
     wp_enqueue_style('normalize');
