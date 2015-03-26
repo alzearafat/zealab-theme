@@ -255,6 +255,7 @@ h1.entry-title-single {
 .featured-image-wrapper {
 	width: 100%;
 	height: auto;
+	text-align: center;
 }
 
 .featured-image-wrapper img {
