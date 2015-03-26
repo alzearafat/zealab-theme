@@ -35,7 +35,7 @@ In this Example, I'll show you how to change Font-Awesome's Icons in the homepag
 ![alt text](http://i62.tinypic.com/2n0lmqe.png "Zealab options on wp-admin dashboard")
 4. Click "Services" tab, and paste font-awesome's 'i' class that you copied earlier to the "Icon * Image" form :
 ![alt text](http://i61.tinypic.com/20s63oj.png "Paste font-awesome <i> class here")
-5. Reload your browser, and done!
+5. Save, and reload your browser. Done!
 
 
 TO-DO
