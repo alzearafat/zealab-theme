@@ -60,12 +60,12 @@ CHANGELOG
 - Styling Native Comment System
 - Disable Legacy Gravatar Feature
 - Fixing Gravatar Bug
-- Minor Bug Fixing
+- Minor Bugs Fixing
 
 **Version 1.1**
 - Fixing Featured Image Align
 - Change Disqus from Required, become Recommended
-- Minor bug fixing
+- Minor Bugs fixing
 
 **Version 1.0**
 - Initial launch
