@@ -9,7 +9,7 @@ SCREENSHOT
 ABOUT
 ---------------
 
-**Zealab Theme - Clean, Minimalist, Responsive WordPress Theme**
+**Zealab Theme v1.2 - Clean, Minimalist, Responsive WordPress Theme**
 
 I made this WordPress theme for my own personal blog (http://zealab.com), with clean, simplicity and readability in mind. Because I want to focus on content rather than design, So don't expect too much... But it gets the job done ;-)
 
@@ -50,6 +50,25 @@ TO-DO
 *NOTE
 ---------------
 I know this theme is far from perfect, it doesn't intended to. Besides, I originaly create this theme just for learning purpose and for my own use. But any sugestions and helps are welcome :-)
+
+
+CHANGELOG
+---------------
+
+**Version 1.2**
+- Add Native Admin Panel
+- Styling Native Comment System
+- Disable Legacy Gravatar Feature
+- Fixing Gravatar Bug
+- Minor Bug Fixing
+
+**Version 1.1**
+- Fixing Featured Image Align
+- Change Disqus from Required, become Recommended
+- Minor bug fixing
+
+**Version 1.0**
+- Initial launch
 
 
 LICENSE
