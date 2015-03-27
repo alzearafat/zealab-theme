@@ -42,7 +42,7 @@ TO-DO
 ---------------
 
 1. Add portfolio page (ON PROGRESS)
-2. Add admin options (DONE!)
+2. Add admin panel (DONE!)
 3. Make small wiki (DO WE REALLY NEED IT?)
 4. ...?
 
