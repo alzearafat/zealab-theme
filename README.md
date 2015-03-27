@@ -9,9 +9,13 @@ SCREENSHOT
 ABOUT
 ---------------
 
-**Zealab Theme v1.2 - Clean, Minimalist, Responsive WordPress Theme**
+**ZEALAB THEME V1.2 - Clean, Minimalist, Responsive WordPress Theme**
 
 I made this WordPress theme for my own personal blog (http://zealab.com), with clean, simplicity and readability in mind. Because I want to focus on content rather than design, So don't expect too much... But it gets the job done ;-)
+
+
+- [DEMO](http://zealab.com/)
+- [DOWNLOAD](https://github.com/alzearafat/zealab-theme/archive/master.zip)
 
 
 HOW TO INSTALL
@@ -21,7 +25,6 @@ HOW TO INSTALL
 3. Activate from admin's dashboard >> Apreance >> Themes
 4. Install required plugins (Check your dashboard after activation)
 5. Done!
-
 
 
 HOW TO USE ADMIN PANEL
