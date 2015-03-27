@@ -9,7 +9,7 @@ SCREENSHOT
 ABOUT
 ---------------
 
-**ZEALAB THEME V1.2 - Clean, Minimalist, Responsive WordPress Theme**
+**ZEALAB THEME v1.2 - Clean, Minimalist, Responsive WordPress Theme**
 
 I made this WordPress theme for my own personal blog (http://zealab.com), with clean, simplicity and readability in mind. Because I want to focus on content rather than design, So don't expect too much... But it gets the job done ;-)
 
