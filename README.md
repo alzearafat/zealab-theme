@@ -5,6 +5,7 @@ SCREENSHOT
 
 ![alt text](http://i62.tinypic.com/k2izgo.png "Zealab Theme Screenshot")
 
+**tes**
 
 ABOUT
 ---------------
